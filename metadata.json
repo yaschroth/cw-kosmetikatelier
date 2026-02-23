@@ -1,0 +1,5 @@
+{
+  "name": "Lumière Beauty & Nails",
+  "description": "High-end cosmetics and nail studio offering professional manicures, pedicures, and skincare in a serene, luxurious atmosphere.",
+  "requestFramePermissions": ["geolocation"]
+}
