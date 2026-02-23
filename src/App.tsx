@@ -205,7 +205,7 @@ const Hero = () => {
           transition={{ delay: 0.7 }}
           className="text-white font-serif text-5xl md:text-7xl font-extralight leading-[1.1] mb-6"
         >
-          Professionelle und innovative <br /> <span className="italic">Gesichtsbehandlungen.</span>
+          Erfahrung trifft <br /> <span className="italic">moderne Technik.</span>
         </motion.h1>
         <motion.p
           initial={{ opacity: 0, y: 20 }}
@@ -213,7 +213,7 @@ const Hero = () => {
           transition={{ delay: 0.9 }}
           className="text-white/80 text-lg md:text-xl max-w-2xl mx-auto mb-10 font-light"
         >
-          Über 30 Jahre Erfahrung in professioneller Hautpflege. Modernste apparative Kosmetik, individuell auf Ihre Haut abgestimmt.
+          Über {config.business.yearsExperience} Jahre Erfahrung in professioneller Hautpflege. Apparative Kosmetik mit Produkten von Monteil, Smetic's und Klapp.
         </motion.p>
         <motion.div
           initial={{ opacity: 0 }}
@@ -257,7 +257,7 @@ const Hero = () => {
       <div className="absolute bottom-12 left-6 md:left-12 z-10 hidden md:block">
         <div className="flex items-center gap-4 text-white/60 text-[10px] uppercase tracking-widest">
           <div className="flex items-center gap-2">
-            <ShieldCheck size={14} className="text-primary" aria-hidden="true" /> Staatlich Anerkannt
+            <ShieldCheck size={14} className="text-primary" aria-hidden="true" /> CIDESCO-Diplom
           </div>
           <div className="w-1 h-1 rounded-full bg-white/20" aria-hidden="true"></div>
           <div className="flex items-center gap-2">
